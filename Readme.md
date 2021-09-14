@@ -1,0 +1,1 @@
+Projeto de um sistema gerenciador de uma loja.
