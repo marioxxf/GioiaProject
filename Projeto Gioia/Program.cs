@@ -17,7 +17,7 @@ namespace Projeto_Gioia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Exemplo1());
+            Application.Run(new FrmLogin());
         }
     }
 }
