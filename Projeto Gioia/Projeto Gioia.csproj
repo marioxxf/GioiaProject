@@ -103,18 +103,6 @@
     <Compile Include="br.com.projeto.model\Funcionarios.cs" />
     <Compile Include="br.com.projeto.model\Produtos.cs" />
     <Compile Include="br.com.projeto.model\Vendas.cs" />
-    <Compile Include="br.com.projeto.view\Exemplo1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="br.com.projeto.view\Exemplo1.Designer.cs">
-      <DependentUpon>Exemplo1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="br.com.projeto.view\Exemplo2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="br.com.projeto.view\Exemplo2.Designer.cs">
-      <DependentUpon>Exemplo2.cs</DependentUpon>
-    </Compile>
     <Compile Include="br.com.projeto.view\FrmClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,12 +145,6 @@
     <Compile Include="br.com.projeto.view\FrmProdutos.Designer.cs">
       <DependentUpon>FrmProdutos.cs</DependentUpon>
     </Compile>
-    <Compile Include="br.com.projeto.view\Exemplo3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="br.com.projeto.view\Exemplo3.Designer.cs">
-      <DependentUpon>Exemplo3.cs</DependentUpon>
-    </Compile>
     <Compile Include="br.com.projeto.view\FrmVendas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,12 +153,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="br.com.projeto.view\Exemplo1.resx">
-      <DependentUpon>Exemplo1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="br.com.projeto.view\Exemplo2.resx">
-      <DependentUpon>Exemplo2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="br.com.projeto.view\FrmClientes.resx">
       <DependentUpon>FrmClientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -197,9 +173,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="br.com.projeto.view\FrmProdutos.resx">
       <DependentUpon>FrmProdutos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="br.com.projeto.view\Exemplo3.resx">
-      <DependentUpon>Exemplo3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="br.com.projeto.view\FrmVendas.resx">
       <DependentUpon>FrmVendas.cs</DependentUpon>
