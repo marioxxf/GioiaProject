@@ -93,12 +93,22 @@ namespace Projeto_Gioia.br.com.projeto.view
         }
         #endregion
 
+        #region Opção Histórico de Vendas (Aba Vendas -> Histórico de Vendas)
+        private void opHistoricoVendas_Click(object sender, EventArgs e)
+        {
+            FrmHistorico tela = new FrmHistorico();
+            tela.Show();
+        }
+        #endregion
+
         #region Programação do Timer que possibilita o funcionamento do fluxo do txthoraatual
         private void timer1_Tick(object sender, EventArgs e)
         {
             txthoraatual.Text = DateTime.Now.ToLongTimeString();
         }
         #endregion
+
+        
 
         #region Programação do FrmMenu Load
         private void FrmMenu_Load(object sender, EventArgs e)

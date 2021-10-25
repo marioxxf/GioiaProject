@@ -68,7 +68,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.btnpagamento.Location = new System.Drawing.Point(471, 368);
             this.btnpagamento.Name = "btnpagamento";
             this.btnpagamento.Size = new System.Drawing.Size(144, 43);
-            this.btnpagamento.TabIndex = 80;
+            this.btnpagamento.TabIndex = 6;
             this.btnpagamento.Text = "Pagamento";
             this.btnpagamento.UseVisualStyleBackColor = false;
             this.btnpagamento.Click += new System.EventHandler(this.btnpagamento_Click);
@@ -81,7 +81,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.btncancelar.Location = new System.Drawing.Point(640, 368);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(144, 43);
-            this.btncancelar.TabIndex = 79;
+            this.btncancelar.TabIndex = 7;
             this.btncancelar.Text = "Cancelar venda";
             this.btncancelar.UseVisualStyleBackColor = false;
             // 
@@ -93,7 +93,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txttotal.Name = "txttotal";
             this.txttotal.ReadOnly = true;
             this.txttotal.Size = new System.Drawing.Size(89, 26);
-            this.txttotal.TabIndex = 76;
+            this.txttotal.TabIndex = 25;
             // 
             // label7
             // 
@@ -103,7 +103,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.label7.Location = new System.Drawing.Point(539, 322);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(95, 21);
-            this.label7.TabIndex = 75;
+            this.label7.TabIndex = 24;
             this.label7.Text = "Total (R$):";
             // 
             // dgcarrinho
@@ -114,8 +114,9 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.dgcarrinho.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgcarrinho.Location = new System.Drawing.Point(468, 21);
             this.dgcarrinho.Name = "dgcarrinho";
+            this.dgcarrinho.ReadOnly = true;
             this.dgcarrinho.Size = new System.Drawing.Size(319, 284);
-            this.dgcarrinho.TabIndex = 78;
+            this.dgcarrinho.TabIndex = 26;
             // 
             // panel1
             // 
@@ -138,7 +139,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.btnexcluir.Location = new System.Drawing.Point(281, 347);
             this.btnexcluir.Name = "btnexcluir";
             this.btnexcluir.Size = new System.Drawing.Size(152, 43);
-            this.btnexcluir.TabIndex = 71;
+            this.btnexcluir.TabIndex = 5;
             this.btnexcluir.Text = "Excluir item";
             this.btnexcluir.UseVisualStyleBackColor = false;
             this.btnexcluir.Click += new System.EventHandler(this.btnexcluir_Click);
@@ -151,7 +152,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.btnadicionar.Location = new System.Drawing.Point(13, 347);
             this.btnadicionar.Name = "btnadicionar";
             this.btnadicionar.Size = new System.Drawing.Size(152, 43);
-            this.btnadicionar.TabIndex = 70;
+            this.btnadicionar.TabIndex = 4;
             this.btnadicionar.Text = "Adicionar item";
             this.btnadicionar.UseVisualStyleBackColor = false;
             this.btnadicionar.Click += new System.EventHandler(this.btnadicionar_Click);
@@ -170,7 +171,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.groupBox2.Location = new System.Drawing.Point(3, 205);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(440, 122);
-            this.groupBox2.TabIndex = 18;
+            this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Dados do Produto";
             // 
@@ -181,7 +182,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txtqtd.Location = new System.Drawing.Point(375, 85);
             this.txtqtd.Name = "txtqtd";
             this.txtqtd.Size = new System.Drawing.Size(61, 26);
-            this.txtqtd.TabIndex = 21;
+            this.txtqtd.TabIndex = 22;
             // 
             // label6
             // 
@@ -191,7 +192,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.label6.Location = new System.Drawing.Point(246, 87);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(123, 21);
-            this.label6.TabIndex = 20;
+            this.label6.TabIndex = 23;
             this.label6.Text = "Quantidade:";
             // 
             // txtpreco
@@ -202,7 +203,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txtpreco.Name = "txtpreco";
             this.txtpreco.ReadOnly = true;
             this.txtpreco.Size = new System.Drawing.Size(89, 26);
-            this.txtpreco.TabIndex = 19;
+            this.txtpreco.TabIndex = 21;
             // 
             // txtdescricao
             // 
@@ -212,7 +213,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txtdescricao.Name = "txtdescricao";
             this.txtdescricao.ReadOnly = true;
             this.txtdescricao.Size = new System.Drawing.Size(256, 26);
-            this.txtdescricao.TabIndex = 18;
+            this.txtdescricao.TabIndex = 20;
             // 
             // label3
             // 
@@ -222,7 +223,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.label3.Location = new System.Drawing.Point(51, 87);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 21);
-            this.label3.TabIndex = 4;
+            this.label3.TabIndex = 17;
             this.label3.Text = "Preço:";
             // 
             // label4
@@ -233,7 +234,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.label4.Location = new System.Drawing.Point(15, 51);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 21);
-            this.label4.TabIndex = 17;
+            this.label4.TabIndex = 16;
             this.label4.Text = "Descrição:";
             // 
             // txtcodigoproduto
@@ -243,7 +244,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txtcodigoproduto.Location = new System.Drawing.Point(124, 21);
             this.txtcodigoproduto.Name = "txtcodigoproduto";
             this.txtcodigoproduto.Size = new System.Drawing.Size(61, 26);
-            this.txtcodigoproduto.TabIndex = 3;
+            this.txtcodigoproduto.TabIndex = 2;
             this.txtcodigoproduto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcodigoproduto_KeyPress);
             // 
             // label5
@@ -254,7 +255,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.label5.Location = new System.Drawing.Point(37, 22);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(81, 21);
-            this.label5.TabIndex = 4;
+            this.label5.TabIndex = 15;
             this.label5.Text = "Código:";
             // 
             // groupBox1
@@ -269,7 +270,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.groupBox1.Location = new System.Drawing.Point(3, 64);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(440, 122);
-            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados do Cliente";
             // 
@@ -281,7 +282,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txtnome.Name = "txtnome";
             this.txtnome.ReadOnly = true;
             this.txtnome.Size = new System.Drawing.Size(346, 26);
-            this.txtnome.TabIndex = 3;
+            this.txtnome.TabIndex = 19;
             // 
             // label1
             // 
@@ -291,7 +292,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.label1.Location = new System.Drawing.Point(15, 86);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 21);
-            this.label1.TabIndex = 4;
+            this.label1.TabIndex = 13;
             this.label1.Text = "Nome:";
             // 
             // txtcpf
@@ -301,7 +302,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txtcpf.Mask = "###,###,###-##";
             this.txtcpf.Name = "txtcpf";
             this.txtcpf.Size = new System.Drawing.Size(111, 26);
-            this.txtcpf.TabIndex = 16;
+            this.txtcpf.TabIndex = 1;
             this.txtcpf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtcpf_KeyPress);
             // 
             // lblcpf
@@ -312,7 +313,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.lblcpf.Location = new System.Drawing.Point(34, 54);
             this.lblcpf.Name = "lblcpf";
             this.lblcpf.Size = new System.Drawing.Size(50, 21);
-            this.lblcpf.TabIndex = 17;
+            this.lblcpf.TabIndex = 12;
             this.lblcpf.Text = "CPF:";
             // 
             // txtdata
@@ -323,7 +324,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txtdata.Name = "txtdata";
             this.txtdata.ReadOnly = true;
             this.txtdata.Size = new System.Drawing.Size(111, 26);
-            this.txtdata.TabIndex = 3;
+            this.txtdata.TabIndex = 18;
             // 
             // lblnome
             // 
@@ -333,7 +334,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.lblnome.Location = new System.Drawing.Point(25, 22);
             this.lblnome.Name = "lblnome";
             this.lblnome.Size = new System.Drawing.Size(59, 21);
-            this.lblnome.TabIndex = 4;
+            this.lblnome.TabIndex = 11;
             this.lblnome.Text = "Data:";
             // 
             // lbltitulo
@@ -344,7 +345,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.lbltitulo.Location = new System.Drawing.Point(71, 16);
             this.lbltitulo.Name = "lbltitulo";
             this.lbltitulo.Size = new System.Drawing.Size(312, 36);
-            this.lbltitulo.TabIndex = 0;
+            this.lbltitulo.TabIndex = 9;
             this.lbltitulo.Text = "Cadastro de Vendas";
             // 
             // FrmVendas

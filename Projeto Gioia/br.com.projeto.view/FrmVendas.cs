@@ -22,10 +22,14 @@ namespace Projeto_Gioia.br.com.projeto.view
         Produtos produto = new Produtos();
         ProdutoDAO dao = new ProdutoDAO();
 
+        // Objeto da Venda
+        Vendas venda = new Vendas();
+        VendaDAO vdao = new VendaDAO();
+
         // Variáveis Globais
-        int qtd;
+        public int qtd;
         decimal preco;
-        decimal subtotal, total;
+        public decimal subtotal, total;
 
         // Carrinho
         public DataTable carrinho = new DataTable();
@@ -35,6 +39,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             InitializeComponent();
 
             // Montagem do DataGridView
+            carrinho.Columns.Add("Código da venda", typeof(int));
             carrinho.Columns.Add("Código", typeof(int));
             carrinho.Columns.Add("Produto", typeof(string));
             carrinho.Columns.Add("Qtd", typeof(int));
@@ -134,13 +139,13 @@ namespace Projeto_Gioia.br.com.projeto.view
         #region Botão Pagamento
         private void btnpagamento_Click(object sender, EventArgs e)
         {
-            FrmPagamento tela = new FrmPagamento(cliente, carrinho, DateTime.Parse(txtdata.Text));
+            this.Hide();
+            Pagamento tela = new Pagamento(cliente, carrinho, DateTime.Parse(txtdata.Text), venda);
+            this.Close();
 
             // Passando o Total para o txttotalpag da Tela de Pagamentos
             tela.txttotalpag.Text = total.ToString();
             tela.ShowDialog();
-
-            this.Close();
         }
         #endregion
 
@@ -149,6 +154,9 @@ namespace Projeto_Gioia.br.com.projeto.view
         {
             try
             {
+            int x = vdao.RetornaIdUltimaVenda();
+                venda.id = x + 1;
+
             qtd = int.Parse(txtqtd.Text);
             preco = decimal.Parse(txtpreco.Text);
 
@@ -158,7 +166,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             txttotal.Text = total.ToString();
 
             // Adicionar produto ao carrinho
-            carrinho.Rows.Add(int.Parse(txtcodigoproduto.Text), txtdescricao.Text, qtd, preco, subtotal);
+            carrinho.Rows.Add(x+1, int.Parse(txtcodigoproduto.Text), txtdescricao.Text, qtd, preco, subtotal);
 
             txtcodigoproduto.Clear();
             txtdescricao.Clear();
@@ -166,6 +174,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             txtpreco.Clear();
 
             txtcodigoproduto.Focus();
+            txtqtd.BackColor = Color.White;
             }
             catch(Exception)
             {

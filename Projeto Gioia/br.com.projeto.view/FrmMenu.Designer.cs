@@ -33,18 +33,19 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opCadastroCliente = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opConsultaClientes = new System.Windows.Forms.ToolStripMenuItem();
             this.funcionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opCadastroFuncionario = new System.Windows.Forms.ToolStripMenuItem();
             this.opConsultaFuncionario = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opCadastroFornecedor = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaDeFornecedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opConsultaFornecedores = new System.Windows.Forms.ToolStripMenuItem();
             this.produtosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opCadastroProduto = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaDeProdutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opConsultaProdutos = new System.Windows.Forms.ToolStripMenuItem();
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opRegistroVendas = new System.Windows.Forms.ToolStripMenuItem();
+            this.opHistoricoVendas = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lbllogado = new System.Windows.Forms.ToolStripStatusLabel();
@@ -59,6 +60,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.White;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clientesToolStripMenuItem,
             this.funcionáriosToolStripMenuItem,
@@ -75,7 +77,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             // 
             this.clientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.opCadastroCliente,
-            this.consultaDeClientesToolStripMenuItem});
+            this.opConsultaClientes});
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
             this.clientesToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.clientesToolStripMenuItem.Text = "Clientes";
@@ -87,12 +89,12 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.opCadastroCliente.Text = "Cadastro de Clientes";
             this.opCadastroCliente.Click += new System.EventHandler(this.cadastroDeClientesToolStripMenuItem_Click);
             // 
-            // consultaDeClientesToolStripMenuItem
+            // opConsultaClientes
             // 
-            this.consultaDeClientesToolStripMenuItem.Name = "consultaDeClientesToolStripMenuItem";
-            this.consultaDeClientesToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.consultaDeClientesToolStripMenuItem.Text = "Consulta de Clientes";
-            this.consultaDeClientesToolStripMenuItem.Click += new System.EventHandler(this.consultaDeClientesToolStripMenuItem_Click);
+            this.opConsultaClientes.Name = "opConsultaClientes";
+            this.opConsultaClientes.Size = new System.Drawing.Size(182, 22);
+            this.opConsultaClientes.Text = "Consulta de Clientes";
+            this.opConsultaClientes.Click += new System.EventHandler(this.consultaDeClientesToolStripMenuItem_Click);
             // 
             // funcionáriosToolStripMenuItem
             // 
@@ -121,7 +123,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             // 
             this.fornecedoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.opCadastroFornecedor,
-            this.consultaDeFornecedoresToolStripMenuItem});
+            this.opConsultaFornecedores});
             this.fornecedoresToolStripMenuItem.Name = "fornecedoresToolStripMenuItem";
             this.fornecedoresToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
             this.fornecedoresToolStripMenuItem.Text = "Fornecedores";
@@ -133,18 +135,18 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.opCadastroFornecedor.Text = "Cadastro de Fornecedores";
             this.opCadastroFornecedor.Click += new System.EventHandler(this.cadastroDeFornecedoresToolStripMenuItem_Click);
             // 
-            // consultaDeFornecedoresToolStripMenuItem
+            // opConsultaFornecedores
             // 
-            this.consultaDeFornecedoresToolStripMenuItem.Name = "consultaDeFornecedoresToolStripMenuItem";
-            this.consultaDeFornecedoresToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.consultaDeFornecedoresToolStripMenuItem.Text = "Consulta de Fornecedores";
-            this.consultaDeFornecedoresToolStripMenuItem.Click += new System.EventHandler(this.consultaDeFornecedoresToolStripMenuItem_Click);
+            this.opConsultaFornecedores.Name = "opConsultaFornecedores";
+            this.opConsultaFornecedores.Size = new System.Drawing.Size(211, 22);
+            this.opConsultaFornecedores.Text = "Consulta de Fornecedores";
+            this.opConsultaFornecedores.Click += new System.EventHandler(this.consultaDeFornecedoresToolStripMenuItem_Click);
             // 
             // produtosToolStripMenuItem
             // 
             this.produtosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.opCadastroProduto,
-            this.consultaDeProdutosToolStripMenuItem});
+            this.opConsultaProdutos});
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
             this.produtosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.produtosToolStripMenuItem.Text = "Produtos";
@@ -156,17 +158,18 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.opCadastroProduto.Text = "Cadastro de Produtos";
             this.opCadastroProduto.Click += new System.EventHandler(this.cadastroDeProdutosToolStripMenuItem_Click);
             // 
-            // consultaDeProdutosToolStripMenuItem
+            // opConsultaProdutos
             // 
-            this.consultaDeProdutosToolStripMenuItem.Name = "consultaDeProdutosToolStripMenuItem";
-            this.consultaDeProdutosToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
-            this.consultaDeProdutosToolStripMenuItem.Text = "Consulta de Produtos";
-            this.consultaDeProdutosToolStripMenuItem.Click += new System.EventHandler(this.consultaDeProdutosToolStripMenuItem_Click);
+            this.opConsultaProdutos.Name = "opConsultaProdutos";
+            this.opConsultaProdutos.Size = new System.Drawing.Size(188, 22);
+            this.opConsultaProdutos.Text = "Consulta de Produtos";
+            this.opConsultaProdutos.Click += new System.EventHandler(this.consultaDeProdutosToolStripMenuItem_Click);
             // 
             // vendasToolStripMenuItem
             // 
             this.vendasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.opRegistroVendas});
+            this.opRegistroVendas,
+            this.opHistoricoVendas});
             this.vendasToolStripMenuItem.Name = "vendasToolStripMenuItem";
             this.vendasToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.vendasToolStripMenuItem.Text = "Vendas";
@@ -174,9 +177,16 @@ namespace Projeto_Gioia.br.com.projeto.view
             // opRegistroVendas
             // 
             this.opRegistroVendas.Name = "opRegistroVendas";
-            this.opRegistroVendas.Size = new System.Drawing.Size(173, 22);
+            this.opRegistroVendas.Size = new System.Drawing.Size(178, 22);
             this.opRegistroVendas.Text = "Registro de Vendas";
             this.opRegistroVendas.Click += new System.EventHandler(this.registroDeVendasToolStripMenuItem_Click);
+            // 
+            // opHistoricoVendas
+            // 
+            this.opHistoricoVendas.Name = "opHistoricoVendas";
+            this.opHistoricoVendas.Size = new System.Drawing.Size(178, 22);
+            this.opHistoricoVendas.Text = "Histórico de Vendas";
+            this.opHistoricoVendas.Click += new System.EventHandler(this.opHistoricoVendas_Click);
             // 
             // statusStrip1
             // 
@@ -237,6 +247,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
@@ -266,13 +277,13 @@ namespace Projeto_Gioia.br.com.projeto.view
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         public System.Windows.Forms.ToolStripStatusLabel lbllogado;
         public System.Windows.Forms.ToolStripMenuItem opCadastroCliente;
-        public System.Windows.Forms.ToolStripMenuItem consultaDeClientesToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem opConsultaClientes;
         public System.Windows.Forms.ToolStripMenuItem opCadastroFuncionario;
         public System.Windows.Forms.ToolStripMenuItem opConsultaFuncionario;
         public System.Windows.Forms.ToolStripMenuItem opCadastroFornecedor;
-        public System.Windows.Forms.ToolStripMenuItem consultaDeFornecedoresToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem opConsultaFornecedores;
         public System.Windows.Forms.ToolStripMenuItem opCadastroProduto;
-        public System.Windows.Forms.ToolStripMenuItem consultaDeProdutosToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem opConsultaProdutos;
         public System.Windows.Forms.ToolStripMenuItem vendasToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem opRegistroVendas;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
@@ -280,5 +291,6 @@ namespace Projeto_Gioia.br.com.projeto.view
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
         private System.Windows.Forms.ToolStripStatusLabel txthoraatual;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolStripMenuItem opHistoricoVendas;
     }
 }

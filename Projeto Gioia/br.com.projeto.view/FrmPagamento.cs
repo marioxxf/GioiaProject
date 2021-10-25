@@ -12,20 +12,27 @@ using System.Windows.Forms;
 
 namespace Projeto_Gioia.br.com.projeto.view
 {
-    public partial class FrmPagamento : Form
+    public partial class Pagamento : Form
     {
-        // Criação dos Objetos que irão receber os dados
+        // Criação dos Objetos e Variáveis que irão receber os dados
         Clientes cliente = new Clientes();
         DataTable carrinho = new DataTable();
         DateTime dataatual;
-        public FrmPagamento(Clientes vcliente, DataTable vcarrinho, DateTime vdataatual)
+        Vendas venda = new Vendas();
+
+        public Pagamento(Clientes vcliente, DataTable vcarrinho, DateTime vdataatual, Vendas vvenda)
         {
             // Recebendo os dados da compra
             this.cliente = vcliente;
             this.carrinho = vcarrinho;
             this.dataatual = vdataatual;
+            this.venda = vvenda;
 
             InitializeComponent();
+
+            // Data Grid View criado para organizar as informações do Data Table carrinho. Esse DGV será usado para a criação de
+            // itens da venda
+            dgauxiliar.DataSource = carrinho;
         }
 
         #region Botão Finalizar Venda
@@ -57,23 +64,43 @@ namespace Projeto_Gioia.br.com.projeto.view
                     troco = totalpago - total;
 
                     // Montagem do Objeto Vendas
-                    Vendas venda = new Vendas();
                     venda.cliente_id    = cliente.id;
                     venda.data_venda    = dataatual;
                     venda.total_venda   = total;
                     venda.obs           = txtobs.Text;
 
+                    // Criação de uma venda
                     VendaDAO vdao = new VendaDAO();
                     vdao.CadastrarVenda(venda);
 
+                    // Montagem do Objeto Item de Venda
+                    int contadorA, iterador; iterador = 0;
+                    contadorA = carrinho.Rows.Count;
+
+                    // Criação do(s) item(ns) da venda
+                    while(contadorA > 0) // O Laço de Repetição se dá necessário por conta que uma venda por ter diversos itens
+                    {
+                        ItemVenda item = new ItemVenda();
+                        item.venda_id = venda.id;
+                        item.produto_id = (int)dgauxiliar.Rows[iterador].Cells["Código"].Value;
+                        //item.produto_id = Int32.Parse((string)carrinho.Rows[iterador]["Código"].ToString());
+                        item.qtd = (int)dgauxiliar.Rows[iterador].Cells["Qtd"].Value;
+                        item.subtotal = (decimal)dgauxiliar.Rows[iterador].Cells["Subtotal"].Value;
+
+                        ItemVendaDAO idao = new ItemVendaDAO();
+                        idao.CadastrarItemVenda(item);
+                        contadorA = contadorA - 1;
+                        iterador = iterador + 1;
+                    }
+                    
                     txttroco.Text = troco.ToString();
 
-                    // Fechando a Tela de Pagamentos quando finalizar a venda ao clicar no botão 'Finalizar venda'
-                    FrmPagamento.ActiveForm.Close();
+                    // Fechando o FrmPagamento e voltando ao FrmVendas
+                    this.Hide();
+                    this.Close();
 
-                    // Retornando à tela de Registro de Vendas
-                    FrmVendas telav = new FrmVendas();
-                    telav.Show();
+                    FrmVendas telaVendas = new FrmVendas();
+                    telaVendas.ShowDialog();
                 }
             }
             catch(Exception erro)

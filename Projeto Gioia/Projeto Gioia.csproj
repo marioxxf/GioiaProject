@@ -36,9 +36,6 @@
     <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
       <HintPath>..\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
-    <Reference Include="Bunifu_UI_v1.52">
-      <HintPath>..\..\..\..\Downloads\SignUpDemo\SignUpDemo\SignUpDemo\bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
-    </Reference>
     <Reference Include="Google.Protobuf, Version=3.14.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Protobuf.3.14.0\lib\net45\Google.Protobuf.dll</HintPath>
     </Reference>
@@ -96,11 +93,13 @@
     <Compile Include="br.com.projeto.dao\ClienteDAO.cs" />
     <Compile Include="br.com.projeto.dao\FornecedorDAO.cs" />
     <Compile Include="br.com.projeto.dao\FuncionarioDAO.cs" />
+    <Compile Include="br.com.projeto.dao\ItemVendaDAO.cs" />
     <Compile Include="br.com.projeto.dao\ProdutoDAO.cs" />
     <Compile Include="br.com.projeto.dao\VendaDAO.cs" />
     <Compile Include="br.com.projeto.model\Clientes.cs" />
     <Compile Include="br.com.projeto.model\Fornecedores.cs" />
     <Compile Include="br.com.projeto.model\Funcionarios.cs" />
+    <Compile Include="br.com.projeto.model\ItemVenda.cs" />
     <Compile Include="br.com.projeto.model\Produtos.cs" />
     <Compile Include="br.com.projeto.model\Vendas.cs" />
     <Compile Include="br.com.projeto.view\FrmClientes.cs">
@@ -108,6 +107,12 @@
     </Compile>
     <Compile Include="br.com.projeto.view\FrmClientes.Designer.cs">
       <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="br.com.projeto.view\FrmDetalheVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="br.com.projeto.view\FrmDetalheVenda.Designer.cs">
+      <DependentUpon>FrmDetalheVenda.cs</DependentUpon>
     </Compile>
     <Compile Include="br.com.projeto.view\FrmFornecedores.cs">
       <SubType>Form</SubType>
@@ -120,6 +125,12 @@
     </Compile>
     <Compile Include="br.com.projeto.view\FrmFuncionarios.Designer.cs">
       <DependentUpon>FrmFuncionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="br.com.projeto.view\FrmHistorico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="br.com.projeto.view\FrmHistorico.Designer.cs">
+      <DependentUpon>FrmHistorico.cs</DependentUpon>
     </Compile>
     <Compile Include="br.com.projeto.view\FrmLogin.cs">
       <SubType>Form</SubType>
@@ -156,11 +167,17 @@
     <EmbeddedResource Include="br.com.projeto.view\FrmClientes.resx">
       <DependentUpon>FrmClientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="br.com.projeto.view\FrmDetalheVenda.resx">
+      <DependentUpon>FrmDetalheVenda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="br.com.projeto.view\FrmFornecedores.resx">
       <DependentUpon>FrmFornecedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="br.com.projeto.view\FrmFuncionarios.resx">
       <DependentUpon>FrmFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="br.com.projeto.view\FrmHistorico.resx">
+      <DependentUpon>FrmHistorico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="br.com.projeto.view\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>

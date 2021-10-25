@@ -41,3 +41,128 @@ C:\Users\Mario Junior\source\repos\Projeto Gioia\Projeto Gioia\obj\Debug\Projeto
 C:\Users\Mario Junior\source\repos\Projeto Gioia\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmPagamento.resources
 C:\Users\Mario Junior\source\repos\Projeto Gioia\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmVendas.resources
 C:\Users\Mario Junior\source\repos\Projeto Gioia\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmLogin.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\Projeto Gioia.exe.config
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\Projeto Gioia.exe
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\Projeto Gioia.pdb
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\Google.Protobuf.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\MySql.Data.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\System.Buffers.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\System.Memory.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\Zstandard.Net.dll
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\Google.Protobuf.pdb
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\Google.Protobuf.xml
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\MySql.Data.xml
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\System.Buffers.xml
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\System.Memory.xml
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.AssemblyReference.cache
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmClientes.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmFornecedores.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmFuncionarios.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmHistorico.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmLogin.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmMenu.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmPagamento.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmProdutos.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmVendas.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.Properties.Resources.resources
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.GenerateResource.cache
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.CoreCompileInputs.cache
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.CopyComplete
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.exe
+C:\Users\Mario Junior\Desktop\Projetinho C#\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.pdb
+D:\GioiaProject\Projeto Gioia\bin\Debug\Projeto Gioia.exe.config
+D:\GioiaProject\Projeto Gioia\bin\Debug\Projeto Gioia.exe
+D:\GioiaProject\Projeto Gioia\bin\Debug\Projeto Gioia.pdb
+D:\GioiaProject\Projeto Gioia\bin\Debug\BouncyCastle.Crypto.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\Google.Protobuf.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\K4os.Hash.xxHash.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\MySql.Data.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\System.Buffers.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\System.Memory.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\System.Numerics.Vectors.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\Ubiety.Dns.Core.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\Zstandard.Net.dll
+D:\GioiaProject\Projeto Gioia\bin\Debug\Google.Protobuf.pdb
+D:\GioiaProject\Projeto Gioia\bin\Debug\Google.Protobuf.xml
+D:\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.xml
+D:\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\GioiaProject\Projeto Gioia\bin\Debug\K4os.Hash.xxHash.xml
+D:\GioiaProject\Projeto Gioia\bin\Debug\MySql.Data.xml
+D:\GioiaProject\Projeto Gioia\bin\Debug\System.Buffers.xml
+D:\GioiaProject\Projeto Gioia\bin\Debug\System.Memory.xml
+D:\GioiaProject\Projeto Gioia\bin\Debug\System.Numerics.Vectors.xml
+D:\GioiaProject\Projeto Gioia\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.AssemblyReference.cache
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmClientes.resources
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmDetalheVenda.resources
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmFornecedores.resources
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmFuncionarios.resources
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmHistorico.resources
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmLogin.resources
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmMenu.resources
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmProdutos.resources
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmVendas.resources
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.Properties.Resources.resources
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.GenerateResource.cache
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.CoreCompileInputs.cache
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.CopyComplete
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.exe
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.pdb
+D:\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.Pagamento.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\Projeto Gioia.exe.config
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\Projeto Gioia.exe
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\Projeto Gioia.pdb
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\Google.Protobuf.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\MySql.Data.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\System.Buffers.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\System.Memory.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\Zstandard.Net.dll
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\Google.Protobuf.pdb
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\Google.Protobuf.xml
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\MySql.Data.xml
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\System.Buffers.xml
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\System.Memory.xml
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.AssemblyReference.cache
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmClientes.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmDetalheVenda.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmFornecedores.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmFuncionarios.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmHistorico.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmLogin.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmMenu.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.Pagamento.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmProdutos.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.br.com.projeto.view.FrmVendas.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto_Gioia.Properties.Resources.resources
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.GenerateResource.cache
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.CoreCompileInputs.cache
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.csproj.CopyComplete
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.exe
+C:\Users\Mario Junior\Desktop\Projeto\GioiaProject\Projeto Gioia\obj\Debug\Projeto Gioia.pdb

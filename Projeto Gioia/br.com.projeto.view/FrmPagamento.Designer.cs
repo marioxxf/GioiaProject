@@ -1,7 +1,7 @@
 ﻿
 namespace Projeto_Gioia.br.com.projeto.view
 {
-    partial class FrmPagamento
+    partial class Pagamento
     {
         /// <summary>
         /// Required designer variable.
@@ -30,6 +30,7 @@ namespace Projeto_Gioia.br.com.projeto.view
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dgauxiliar = new System.Windows.Forms.DataGridView();
             this.txtobs = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtcartao = new System.Windows.Forms.TextBox();
@@ -43,11 +44,13 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.lbltitulo = new System.Windows.Forms.Label();
             this.lblnome = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgauxiliar)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.dgauxiliar);
             this.panel1.Controls.Add(this.txtobs);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txtcartao);
@@ -65,6 +68,18 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.panel1.Size = new System.Drawing.Size(450, 431);
             this.panel1.TabIndex = 78;
             // 
+            // dgauxiliar
+            // 
+            this.dgauxiliar.AllowUserToAddRows = false;
+            this.dgauxiliar.AllowUserToDeleteRows = false;
+            this.dgauxiliar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgauxiliar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgauxiliar.Location = new System.Drawing.Point(13, 124);
+            this.dgauxiliar.Name = "dgauxiliar";
+            this.dgauxiliar.Size = new System.Drawing.Size(89, 130);
+            this.dgauxiliar.TabIndex = 80;
+            this.dgauxiliar.Visible = false;
+            // 
             // txtobs
             // 
             this.txtobs.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -73,7 +88,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txtobs.Multiline = true;
             this.txtobs.Name = "txtobs";
             this.txtobs.Size = new System.Drawing.Size(173, 82);
-            this.txtobs.TabIndex = 78;
+            this.txtobs.TabIndex = 5;
             // 
             // label4
             // 
@@ -93,7 +108,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txtcartao.Location = new System.Drawing.Point(226, 122);
             this.txtcartao.Name = "txtcartao";
             this.txtcartao.Size = new System.Drawing.Size(173, 36);
-            this.txtcartao.TabIndex = 76;
+            this.txtcartao.TabIndex = 2;
             // 
             // label3
             // 
@@ -113,7 +128,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txttotalpag.Location = new System.Drawing.Point(226, 216);
             this.txttotalpag.Name = "txttotalpag";
             this.txttotalpag.Size = new System.Drawing.Size(173, 36);
-            this.txttotalpag.TabIndex = 74;
+            this.txttotalpag.TabIndex = 4;
             // 
             // label2
             // 
@@ -133,7 +148,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txttroco.Location = new System.Drawing.Point(226, 169);
             this.txttroco.Name = "txttroco";
             this.txttroco.Size = new System.Drawing.Size(173, 36);
-            this.txttroco.TabIndex = 72;
+            this.txttroco.TabIndex = 3;
             // 
             // label1
             // 
@@ -154,7 +169,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.btnfinalizar.Location = new System.Drawing.Point(161, 368);
             this.btnfinalizar.Name = "btnfinalizar";
             this.btnfinalizar.Size = new System.Drawing.Size(152, 43);
-            this.btnfinalizar.TabIndex = 70;
+            this.btnfinalizar.TabIndex = 6;
             this.btnfinalizar.Text = "Finalizar venda";
             this.btnfinalizar.UseVisualStyleBackColor = false;
             this.btnfinalizar.Click += new System.EventHandler(this.btnfinalizar_Click);
@@ -166,7 +181,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.txtavista.Location = new System.Drawing.Point(226, 75);
             this.txtavista.Name = "txtavista";
             this.txtavista.Size = new System.Drawing.Size(173, 36);
-            this.txtavista.TabIndex = 3;
+            this.txtavista.TabIndex = 1;
             // 
             // lbltitulo
             // 
@@ -190,18 +205,20 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.lblnome.TabIndex = 4;
             this.lblnome.Text = "À Vista (R$):";
             // 
-            // FrmPagamento
+            // Pagamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(475, 456);
             this.Controls.Add(this.panel1);
-            this.Name = "FrmPagamento";
+            this.Name = "Pagamento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPagamento";
             this.Load += new System.EventHandler(this.FrmPagamento_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgauxiliar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -221,5 +238,6 @@ namespace Projeto_Gioia.br.com.projeto.view
         private System.Windows.Forms.TextBox txtobs;
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.TextBox txttotalpag;
+        private System.Windows.Forms.DataGridView dgauxiliar;
     }
 }
