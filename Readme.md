@@ -2,7 +2,6 @@
 <p>This is sales's system for a small business, and is being produced since august 2021 after classes from Caio, one of my programming's teachers. It has being made just C# and .NET's components, without external's frameworks (like Bunifu, Nevron etc.). I'm using MySQL Workbench for manage the database, and all DAO (Data Access Object) is working.</p>
 <h2>State of the project</h2>
 <p>This project is running, and i'm accept new issues. Let's get it!</p>
-<p>This project is running, so i'm accept new issues. Let's get it!</p>
 <h2>Images</h1>
 
 ![alt tag](https://i.imgur.com/SsmtdFx.png)
