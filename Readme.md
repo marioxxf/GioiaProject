@@ -7,7 +7,11 @@
 ![alt tag](https://i.imgur.com/SsmtdFx.png)
 ![alt tag](https://i.imgur.com/gldeCPU.png)
 ![alt tag](https://i.imgur.com/y39RvAk.png)
+
+
 Observation: This system have restrictions depending on acess's level of the registered user. See a example in the next screenshot.
+
+
 ![alt tag](https://i.imgur.com/XXP93jv.png)
 ![alt tag](https://i.imgur.com/b8h85zE.png)
 ![alt tag](https://i.imgur.com/3AJ0VrD.png)
