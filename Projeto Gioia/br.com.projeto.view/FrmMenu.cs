@@ -1,4 +1,5 @@
-﻿using Projeto_Gioia.br.com.projeto.dao;
+﻿using MySql.Data.MySqlClient;
+using Projeto_Gioia.br.com.projeto.dao;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -106,9 +107,28 @@ namespace Projeto_Gioia.br.com.projeto.view
         {
             txthoraatual.Text = DateTime.Now.ToLongTimeString();
         }
-        #endregion
 
-        
+        private void btnbackup_Click(object sender, EventArgs e)
+        {
+            string arquivo = "C:\\backup.sql";
+            string constring = "server=localhost;PORT=3306;user=root;pwd=mario;database=bdgioia; Convert Zero Datetime=True;";
+
+            using (MySqlConnection conn = new MySqlConnection(constring))
+            {
+                using (MySqlCommand cmd = new MySqlCommand())
+                {
+                    using (MySqlBackup mb = new MySqlBackup(cmd))
+                    {
+                        cmd.Connection = conn;
+                        conn.Open();
+                        mb.ExportToFile(arquivo);
+                        conn.Close();
+                        MessageBox.Show("Backup completo!");
+                    }
+                }
+            }
+        }
+        #endregion
 
         #region Programação do FrmMenu Load
         private void FrmMenu_Load(object sender, EventArgs e)

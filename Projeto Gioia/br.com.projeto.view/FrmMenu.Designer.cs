@@ -54,6 +54,7 @@ namespace Projeto_Gioia.br.com.projeto.view
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
             this.txthoraatual = new System.Windows.Forms.ToolStripStatusLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnbackup = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -243,12 +244,26 @@ namespace Projeto_Gioia.br.com.projeto.view
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btnbackup
+            // 
+            this.btnbackup.BackColor = System.Drawing.Color.White;
+            this.btnbackup.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnbackup.Font = new System.Drawing.Font("Century Gothic", 12.25F);
+            this.btnbackup.Location = new System.Drawing.Point(584, 378);
+            this.btnbackup.Name = "btnbackup";
+            this.btnbackup.Size = new System.Drawing.Size(204, 47);
+            this.btnbackup.TabIndex = 70;
+            this.btnbackup.Text = "Fazer backup do banco de dados";
+            this.btnbackup.UseVisualStyleBackColor = false;
+            this.btnbackup.Click += new System.EventHandler(this.btnbackup_Click);
+            // 
             // FrmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnbackup);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -292,5 +307,6 @@ namespace Projeto_Gioia.br.com.projeto.view
         private System.Windows.Forms.ToolStripStatusLabel txthoraatual;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ToolStripMenuItem opHistoricoVendas;
+        private System.Windows.Forms.Button btnbackup;
     }
 }
